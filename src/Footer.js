@@ -1,6 +1,15 @@
-import React from 'react'
+import React from 'react';
 
 function Footer() {
+    const handleSubscribe = () => {
+        const message = document.getElementById('message').value;
+        if (message.trim() !== '') {
+            alert('Thank you for susbcribe');
+        } else {
+            alert('Please enter a message');
+        }
+    };
+
     return (
         <>
             <footer>
@@ -19,9 +28,9 @@ function Footer() {
                                 <div className="col-12 col-md-3">
                                     <h4>Subscribe to get important updates</h4>
                                     <div className="pt-3">
-                                    <input type="text" name="" id="" class="form-control" placeholder="Enter your message" />
+                                    <input id="message" type="text" name="" className="form-control" placeholder="Enter your message" />
                                     </div>
-                                    <button class="btn-style my-3">Suscribe</button>
+                                    <button className="btn-style my-3" onClick={handleSubscribe}>Subscribe</button>
                                 </div>
                                 <div className="col-12 col-md-3">
                                     <h4>Call Us</h4>
@@ -67,7 +76,7 @@ function Footer() {
                 </div>
             </footer>
         </>
-    )
+    );
 }
 
-export default Footer
+export default Footer;
