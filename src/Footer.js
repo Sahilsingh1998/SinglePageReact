@@ -15,7 +15,7 @@ function Footer() {
             <footer>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-10 col-12 mx-auto">
+                        <div className="col-md-12 col-12 mx-auto">
                             <div className="row">
                                 <div className="col-12 col-md-3">
                                     <h4>Web Designer</h4>

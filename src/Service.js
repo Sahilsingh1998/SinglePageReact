@@ -6,10 +6,10 @@ function Service() {
     const [SreviceData] = useState(serviceapi);
     return (
         <>
-            <section className='service-main-conatiner'>
+            <section className='service-main-container container'>
                 <div className="service-container container my-5">
                     <h2 className='text-center fw-bold'>
-                        How to send money
+                        How To Send Money
                     </h2>
                     <div className="row gap-3 my-5">
                         {SreviceData.map((curElem) => {

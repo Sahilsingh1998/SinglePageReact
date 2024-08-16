@@ -68,7 +68,7 @@ function Contact() {
             <section className='contactus-section'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-lg-10 mx-auto">
+                        <div className="col-12 col-lg-12 mx-auto">
                             <div className="row">
                                 <div className="contact-us-leftside col-12 col-md-5">
                                     <h3 className='main-heading fw-bold'>

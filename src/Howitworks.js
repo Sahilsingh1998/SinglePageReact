@@ -16,9 +16,11 @@ function Howitworks() {
                             return (
                                 <>
                                     <div className="col-12 col-lg-4 text-center work-container-subdiv">
+                                        <div className="box">
                                        <i class={`fontawesome-style ${logo}`}></i>
                                         <h5>{title}</h5>
                                         <p className='main-hero-para w-100'>{info}</p>
+                                        </div>
                                     </div>
                                 </>
                             )

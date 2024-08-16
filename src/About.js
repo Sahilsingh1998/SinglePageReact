@@ -9,11 +9,11 @@ function About() {
         <>
             <section className='common-section our-services'>
                 <div className="container">
-                    <div className="row">
-                        <div className="col-12 col-lg-5 text-center our-services-left-side-image">
-                            <img src="./image/img-1.jpg" alt='logo' className='img-fluid'></img>
+                    <div className="row justify-content-between">
+                        <div className="col-12 col-lg-6 text-center our-services-left-side-image">
+                            <img src="./image/img-2.jpg" alt='logo' className='img-fluid'></img>
                         </div>
-                        <div className="col-12 col-lg-7 our-services-list">
+                        <div className="col-12 col-lg-5 our-services-list">
                             <h3 className='mini-title'>--AVAILABLE @GOOGLE AND IOS APP STORE ONLY</h3>
                             <h1 className='main-heading'>How to use the app?</h1>
                             {aboutData.map((curElem) => {
